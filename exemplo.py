@@ -188,7 +188,7 @@ class CasaBuilder(Builder):
 
     def build(self):
         casa = self._casa
-        self.reset()  # Reset builder after building
+        self.reset()
         return casa
 
 # Director
